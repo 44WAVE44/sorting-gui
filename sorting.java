@@ -111,6 +111,8 @@ class Sframe extends JFrame implements ActionListener {
 				
 				//****QUICKSORT****//
 				
+				txa2.setText(null);
+				
 				SortingAlgorithmOne qck = new SortingAlgorithmOne();
 				
 				String[] txa1Values = txa1.getText().split(",");
@@ -137,6 +139,8 @@ class Sframe extends JFrame implements ActionListener {
 			else if (e.getSource() == btn3) {
 				
 				//****INSERTIONSORT****//
+				
+				txa2.setText(null);
 				
 				SortingAlgorithmTwo ins = new SortingAlgorithmTwo();
 				
@@ -222,7 +226,6 @@ class Sframe extends JFrame implements ActionListener {
 		}
 		
 	}
-
 
 
 
